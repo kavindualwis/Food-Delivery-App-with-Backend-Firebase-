@@ -30,7 +30,7 @@ class MySliverAppBar extends StatelessWidget {
           icon: const Icon(Icons.shopping_cart),
         )
       ],
-      backgroundColor: Theme.of(context).colorScheme.background,
+      backgroundColor: Theme.of(context).colorScheme.surface,
       foregroundColor: Theme.of(context).colorScheme.inversePrimary,
       title: const Text('Mr.Peppers'),
       centerTitle: true,

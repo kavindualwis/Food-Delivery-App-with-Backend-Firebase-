@@ -89,7 +89,7 @@ class _DeliveryProgressPageState extends State<DeliveryProgressPage> {
               padding: const EdgeInsets.all(15),
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: Theme.of(context).colorScheme.background,
+                color: Theme.of(context).colorScheme.surface,
               ),
               child: const Icon(Icons.person, size: 25),
             ),
@@ -127,7 +127,7 @@ class _DeliveryProgressPageState extends State<DeliveryProgressPage> {
                   padding: const EdgeInsets.all(15),
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Theme.of(context).colorScheme.background,
+                    color: Theme.of(context).colorScheme.surface,
                   ),
                   child: Icon(
                     Icons.message,
@@ -140,7 +140,7 @@ class _DeliveryProgressPageState extends State<DeliveryProgressPage> {
                   padding: const EdgeInsets.all(15),
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Theme.of(context).colorScheme.background,
+                    color: Theme.of(context).colorScheme.surface,
                   ),
                   child: const Icon(
                     Icons.phone,

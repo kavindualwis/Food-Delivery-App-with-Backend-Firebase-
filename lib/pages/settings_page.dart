@@ -16,9 +16,9 @@ class _SettingsPageState extends State<SettingsPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Settings'),
-        backgroundColor: Theme.of(context).colorScheme.background,
+        backgroundColor: Theme.of(context).colorScheme.surface,
       ),
-      backgroundColor: Theme.of(context).colorScheme.background,
+      backgroundColor: Theme.of(context).colorScheme.surface,
       body: Column(
         children: [
           Container(
@@ -48,7 +48,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   onChanged: (value) =>
                       Provider.of<ThemeProvider>(context, listen: false)
                           .toggleTheme(),
-                )
+                ),
               ],
             ),
           ),
