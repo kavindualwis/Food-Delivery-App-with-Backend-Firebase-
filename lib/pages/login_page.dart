@@ -97,7 +97,7 @@ class _LoginPageState extends State<LoginPage> {
 
                 //message,app slogan
                 Text(
-                  'Sansa Foods',
+                  'Mr.Pepper',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 16,
